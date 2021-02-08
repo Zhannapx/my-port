@@ -1,0 +1,211 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+@font-face {
+     font-family: Myriad Pro;
+     src: url("font/MyriadProRegular.otf");
+     font-style: normal;
+     font-weight: normal;
+}
+
+
+.frrog  {
+  width: 1240px;
+}
+
+.header {
+   width: 65%;
+   height: 370px;
+   display: flex;
+   background-color: #9ab482;
+   
+   
+}
+
+.text {
+     padding-top: 121px;
+     padding-left: 36px;
+}
+.name {
+    width: 705px;
+    height: 47;
+    color: #faf0e6;
+    font-family: "Myriad Pro";
+    font-size: 57px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 100px;
+text-align: left;
+text-transform: uppercase;
+font-style: normal;
+letter-spacing: 2px;
+line-height: normal;
+}
+
+.Position {
+    /* Style for "FULL-STACK" */
+    width: 535px;
+    height: 23px;
+    color: #faf0e6;
+    font-family: "Myriad Pro";
+    font-size: 33px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 100px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "FULL-STACK" */
+font-style: normal;
+letter-spacing: 1px;
+line-height: normal; 
+padding-top: 47px;
+}
+
+.photo {
+    padding-top: 36px;
+    padding-left: 79px;
+}
+ 
+.photo img {
+    width: 300px;
+    height: 300px;
+}
+
+.main-section {
+width: 100%;
+display: flex;
+
+}
+
+.sidebar {
+    width: 473px;
+    height: 1500px;
+    padding: 151px 76px 230px 72px;
+    background-color: rgb(163, 133, 107);
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-contacts,
+.sidebar-skills {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar-title {
+    font-style: 142px;
+    color: rgb(70, 44, 34);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+    font-size: 33px;
+    font-weight: bold;
+       
+ }
+
+ .sidebar-subtitle {
+    font-size: 33px;
+    font-weight: bold;
+    color: #faf0e6;
+    text-align: center;
+    text-transform: uppercase;
+
+ }
+
+ .sidebar-text {
+     margin-top: 20px;
+     margin-bottom: 28px;
+     font-size: 33px;
+     text-align: center;
+     color:rgb(70, 44, 34) ;
+ }
+
+ .sidebar-skills {
+     margin-top: 75px;
+
+ }
+ 
+ .sidebar-list {
+     list-style-type: none;
+
+ }
+
+ .sidebar-list li {
+     font-size: 33px;
+     color: rgb(70, 44, 34);
+     text-transform: uppercase;
+ }
+ 
+ .main-info {
+     width: 39%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 46px;
+     
+ }
+
+ .info-wrapper {
+     width: 655px;
+ }
+ .info-title {
+     height: 47px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #9ab482;
+ }
+ 
+ .info-title-text {
+     font-style: 100px;
+     font-weight: bold;
+     color: #faf0e6;;
+     text-transform: uppercase;
+     
+     height: 38;
+     font-size: 35px;
+ 
+ }
+
+ .main-text {
+     font-size: 25px;
+     font-weight: bold;
+     color: rgb(70, 44, 34) ;
+     margin-top: 19px;
+     margin-bottom: 32px;
+ }
+ .facts-info {
+     display: flex;
+     flex-direction: column;
+
+ }
+ .facts-text {
+     
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(70, 44, 34) ;
+    margin-top: 19px;
+    margin-bottom: 32px;
+ }
+ 
+ .facts-subtext {
+       font-size: 25px;
+       font-style: italic;
+       color: rgb(170, 143, 121);
+       padding-bottom: 40px;
+ }
+ 
+ .footer {
+     height: 100px;
+     width: 1500px;
+     background-color: #9ab482;
+ }
+
+
+ 
